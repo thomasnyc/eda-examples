@@ -117,7 +117,7 @@ deployment_groups:
     use: [c4a-slurm-net-0]
     settings:
       bandwidth_tier: gvnic_enabled
-      machine_type: c4a-standard-64
+      machine_type: c4a-standard-4
       node_count_static: 2
       node_count_dynamic_max: 0
       enable_placement: false
